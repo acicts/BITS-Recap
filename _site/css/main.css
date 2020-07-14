@@ -60,7 +60,7 @@ body{
 }
 
 .section-1{
-    margin-top: 20px;
+    margin-top: 50px;
     width: 100%;
     padding-bottom: 100px;
 }
@@ -280,6 +280,7 @@ body{
     }
 
     .intro-heading{
+        margin-top: 110px;
         padding-top: 20%;
         font-size: 500%;
         text-align: center;
@@ -295,17 +296,17 @@ body{
     } */
 
     .image1{
-        margin-top: -602px;
-        transform: translateX(0%);
+        margin-top: -430px;
+        transform: translateX(-12%);
         animation: floatAnimS 6s ease-in-out infinite;
     }    
 
     .image1 svg{
-        transform: scale(0.8);
+        transform: scale(0.6);
     }
 
     .section-1{
-        margin-top: 85px;
+        margin-top: 45px;
     }
 
     .image2{
@@ -331,13 +332,13 @@ body{
 
     @keyframes floatAnimS {
         0% {
-          transform: translate(0%,123px);
+          transform: translate(-12%,123px);
         }
         50% {
-          transform: translate(0%,138px);
+          transform: translate(-12%,138px);
         }
         100% {
-          transform: translate(0%,123px);
+          transform: translate(-12%,123px);
         }
     }
 
