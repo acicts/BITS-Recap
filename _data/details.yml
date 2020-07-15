@@ -1,0 +1,32 @@
+- name: BITS '18
+  img: ./img/bits-ui/bits2018.png
+  link:
+  alt: bits 2018
+  registered: 120
+  participants: 20
+  tasks: 120
+  duration: 01 Mar - 07 June, 2018
+  days: 70
+  winner: name here
+
+- name: BITS '18
+  img: ./img/bits-ui/bits2019.png
+  link:
+  alt: bits 2018
+  registered: 120
+  participants: 20
+  tasks: 120
+  duration: 01 Mar - 07 June, 2018
+  days: 70
+  winner: name here
+
+- name: BITS '18
+  img: ./img/bits-ui/bits2020.png
+  link: /#
+  alt: bits 2018
+  registered: 120
+  participants: 20
+  tasks: 120
+  duration: 01 Mar - 07 June, 2018
+  days: 70
+  winner: name here

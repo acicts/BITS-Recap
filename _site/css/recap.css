@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body{
+    font-family: 'Do Hyeon', sans-serif !important;
+    font-weight: 700;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #141517 !important;
+}
+
+.navbar{
+    padding: 20px 100px;
+}
+
+.main-header{
+    width: 100% !important;
+    background-size: 100% 100%;
+    background-image: url(../img/header-bg2.jpg);
+    height: 630px;
+    overflow-x: hidden;
+}
+
+.intro-heading{
+    padding-top: 20%;
+    font-size: 550%;
+    text-align: center;
+    color: white;
+}
+
+.intro-sub{
+    font-size: 150%;
+    text-align: center;
+    color: white; 
+}
+
+.wave1{
+    margin-top: -22%;
+}
+
+.wave2{
+    margin-top: -21%;
+}
+
+.website-img{
+    border-radius: 20px;
+    width: 30%;
+    display: block;
+    margin: -150px auto 0;
+    z-index: 50;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.website-img:hover{
+    opacity: 0.4;
+}
+
+.website-img + div.open{
+    opacity: 0;
+    text-align: center;
+    margin-top: -90px;
+    margin-bottom: 150px;
+    transition: 0.3s;
+    color: white;
+}
+
+.website-img:hover + div.open{
+    opacity: 1;
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 140px;
+    color: #ff451c;
+    transition: 0.3s;
+}
+
+.website-img + div.open:hover{
+    opacity: 1;
+    text-align: center;
+    margin-top: -80px;
+    color: #ff451c;
+    margin-bottom: 140px;
+    transition: 0.3s;
+}
+
+@keyframes floatAnim {
+    0% {
+      transform: translateY(123px);
+    }
+    50% {
+      transform: translateY(138px);
+    }
+    100% {
+      transform: translateY(123px);
+    }
+}
+
+.info span{
+    font-size: 300%;
+}
+
+.info i.fa-circle{
+    color: #550e2d;
+}
+
+.info h4.service-heading{
+    color: #ffffff;
+}
+
+.sidebar {
+    position: sticky;
+    top: 30%;
+    z-index: 10;
+}
+
+.linkbar:nth-child(1){
+    border-top-right-radius: 20px ;
+}
+
+.linkbar:nth-child(3){
+    border-bottom-right-radius: 20px;
+}
+
+.linkbar {
+    color: #e51d1f;
+    cursor: pointer;
+    padding: 20px;
+    width: 70px;
+    height: 100px;
+    background: #1a000e;
+    transition: 0.3s;
+}
+
+.linkbar:hover {
+    background-color: #550e2d;
+    width: 100px;
+    border-radius: 0;
+}
+
+.linkbar h2 {
+    opacity: 1;
+}
+
+.linkbar h5 {
+    opacity: 0;
+    display: none;
+}
+
+.linkbar:hover h2 {
+    opacity: 0;
+    display: none;
+}
+
+.linkbar:hover h5 {
+    opacity: 1;
+    display: inline;
+}
+
+.tasks h1.title{
+    color: #ffffff;
+}
+
+.tasks div.card{
+    background-color: #550e2d;
+    border: none;
+    z-index: 100;
+}
+
+.tasks .btn{    
+    background-color: #2f0216;
+    color: #a2a2a2;
+    border: none;
+}
+
+.tasks .btn:hover{    
+    background-color: #2f0216;
+    color: white;
+    border: none;
+}
+
+.tasks img.card-img-top{
+    padding: 30px;
+    border-radius: 50px;
+    width: 100%;
+    height: 200px;
+    opacity: 0.6;
+    transition: 0.3s;
+
+}
+
+.tasks h5.card-title{
+    color: #ffffff;
+}
+
+.tasks ul.list-group.list-group-flush {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.tasks li.list-group-item {
+    background-color: #81073c;
+    color: #a2a2a2;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.tasks div.card:hover ul.list-group.list-group-flush{
+    opacity: 1;
+}
+
+.tasks div.card:hover li.list-group-item{
+    color: #ffffff;
+}
+
+.tasks div.card:hover img.card-img-top{
+    opacity: 1;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: #550e2d !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    --bs-table-accent-bg: #550e2d !important;
+}
+
+
+.students  img.img-student{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
+
+.students h1.title{
+    color: #ffffff;
+}
+
+.students h4.name{
+    padding: 10px;
+    color: white;
+}
+
+.students div.student-card{
+    z-index: 100;
+}
+
+.students div.student{
+    background: #2f0216;
+    margin: 5px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.students div.student:hover{
+    background: #81073c;
+}

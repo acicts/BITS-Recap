@@ -9,7 +9,7 @@ body{
 }
 
 .navbar{
-    padding: 20px 0 20px 0 !important;
+    padding: 20px 100px;
 }
 
 .main-header{
@@ -171,6 +171,11 @@ body{
     margin-top: -80px;
     margin-bottom: 40px;
     transition: 0.3s;
+    color: white;
+}
+
+.detail-cards img.card-img-top:hover + div.open{
+    color: #0d6efd !important;
 }
 
 .detail-cards div.card:hover img.card-img-top{
@@ -183,6 +188,26 @@ body{
     margin-bottom: 60px;
 }
 
+.tosite{
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #204c6b;
+    width: 50%;
+    text-align: center;
+    float: right;
+    clear: both;
+    margin-right: 0px;
+}
+
+.tosite a{
+    color: #141517;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.tosite a:hover{
+    color: white;
+}
 
 /* 
 .image3{
