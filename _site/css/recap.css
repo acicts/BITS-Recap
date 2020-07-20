@@ -107,10 +107,15 @@ body{
 }
 
 .sidebar {
-    position: sticky;
-    top: 30%;
+    top: 20%;
     z-index: 10;
+    margin-bottom: 10px;
 }
+
+.stickySidebar {
+    position: sticky;
+}
+
 
 .linkbar:nth-child(1){
     border-top-right-radius: 20px ;
@@ -118,6 +123,7 @@ body{
 
 .linkbar:nth-child(3){
     border-bottom-right-radius: 20px;
+    margin-bottom: 10px;
 }
 
 .linkbar {
@@ -157,6 +163,13 @@ body{
 
 .tasks h1.title{
     color: #ffffff;
+}
+
+.other-link{
+    background-color: #1a000e;
+    color: #ffffff;
+    padding: 5px;
+    width: 100px;
 }
 
 .tasks div.card{
@@ -218,12 +231,16 @@ body{
     opacity: 1;
 }
 
-.table-striped>tbody>tr:nth-of-type(odd) {
-    --bs-table-accent-bg: #550e2d !important;
+.table-leaderboard tr{
+    color: #fff !important;
 }
 
-.table-striped>tbody>tr:nth-of-type(even) {
-    --bs-table-accent-bg: #550e2d !important;
+.table-leaderboard tbody tr:nth-of-type(odd) {
+    background-color:  #2f0216 !important;
+}
+
+.table-leaderboard tbody tr:nth-of-type(even) {
+    background-color:  #80053a !important;
 }
 
 
@@ -251,8 +268,57 @@ body{
     margin: 5px;
     padding: 10px 0;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 .students div.student:hover{
     background: #81073c;
+}
+
+.student p.name{
+    margin-top: 5px;
+    color: white;
+}
+
+.student p.place{
+    color: #80053a;
+    margin-top:-20px;
+}
+
+.students div.student:hover p.place{
+    background: white;
+    transition: 0.2s;
+
+}
+
+
+.wave3{
+    margin-top: -18%;
+}
+
+.wave4{
+    margin-top: -21%;
+}
+
+.page-footer{
+    color: white;
+    background-color: #343a40;
+}
+
+.footer-copyright{
+    background-color: #222325;
+}
+
+.acicts-links a{
+    font-size: 150%;
+    color: white;
+    transition: 0.2s;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .tasks{
+        padding: 0 150px;
+    }
+    
 }
