@@ -18,6 +18,7 @@ body{
     background-image: url(../img/header-bg2.jpg);
     height: 630px;
     overflow-x: hidden;
+    background-size: cover;
 }
 
 .intro-heading{
@@ -108,7 +109,7 @@ body{
 
 .sidebar {
     top: 20%;
-    z-index: 10;
+    z-index: 999;
     margin-bottom: 10px;
 }
 
@@ -322,3 +323,26 @@ body{
     }
     
 }
+
+@media only screen and (max-width: 600px){
+.tasks {
+    padding: 0 10%;
+}
+.resp{
+    display: flex;
+    flex-direction: row;
+}
+
+.website-img{
+    width: 90%;
+}
+.wave3{
+    margin-top: 100px;
+}
+}
+
+@media only screen and (max-width: 450px){
+    .tasks {
+        padding: 0 4%;
+    }
+    }
