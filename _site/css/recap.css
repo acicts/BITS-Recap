@@ -119,11 +119,11 @@ body{
 
 
 .linkbar:nth-child(1){
-    border-top-right-radius: 20px ;
+    border-top-right-radius: 20% ;
 }
 
 .linkbar:nth-child(3){
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20%;
     margin-bottom: 10px;
 }
 
@@ -338,6 +338,37 @@ body{
 }
 .wave3{
     margin-top: 100px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+   justify-content: space-around;
+   width: 100%;
+   bottom: 0;
+   top: unset;
+    /* margin-top: auto; */
+    position: fixed;
+    margin-bottom: unset;
+}
+.linkbarsec{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+.linkbar{
+    height: 100%;
+}
+.linkbar:nth-child(1){
+    border-top-left-radius: 20% ;
+    border-top-right-radius: unset ;
+}
+
+.linkbar:nth-child(3){
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: unset;
+    /* margin-bottom: 10px; */
 }
 }
 
